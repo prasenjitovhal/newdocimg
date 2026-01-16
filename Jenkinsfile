@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DEV_SERVER   = "ec2-user@DEV_IP"
-        STAGE_SERVER = "ec2-user@STAGE_IP"
-        PROD_SERVER  = "ec2-user@PROD_IP"
+        DEV_SERVER   = "13.127.30.198"
+        STAGE_SERVER = "13.232.187.168"
+        PROD_SERVER  = "65.1.134.248"
         APP_NAME = "myapp"
     }
 
